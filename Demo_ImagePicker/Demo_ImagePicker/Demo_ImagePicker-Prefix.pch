@@ -1,0 +1,38 @@
+//
+// Prefix header for all source files of the 'Demo_ImagePicker' target in the 'Demo_ImagePicker' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+
+
+
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+#define BG_SCROLLVIEW_X 0
+#define BG_SCROLLVIEW_Y 70
+#define BG_SCROLLVIEW_WIDTH 321
+#define BG_SCROLLVIEW_HEIGHT 180
+#define EDIT_SCROLLVIEW_X 40
+#define EDIT_SCROLLVIEW_Y 290
+#define EDIT_SCROLLVIEW_WIDTH 240
+#define EDIT_SCROLLVIEW_HEIGHT 250
+#define LABEL_X 0
+#define LABEL_Y 260
+#define LABEL_WIDTH 300
+#define LABEL_HEIGHT 20
+#define LABEL_TEXT @"模式2可以选择，模式1可旋转，位移，缩放"
+#define LABEL_FONT 11.0
+#define EDIT_SCROLLVIEW_MAX_ZOOM_SCALE 2.0
+#define EDIT_SCROLLVIEW_MIN_ZOOM_SCALE 0.5
+#define BG_SCROLLVIEW_MAX_ZOOM_SCALE 2.0
+#define BG_SCROLLVIEW_MIN_ZOOM_SCALE 0.5
+
+
+#endif
